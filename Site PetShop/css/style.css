@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 20px #7a50a2;
+    background-color: #fccc15;
+    font-family:"Poppins";
+    font-size: 17px;
+    min-width:725px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header .inner{
+    display: block;
+    margin:  auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 250px;
+    margin-top: -70px; 
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav .button{
+    background-color: #7a50a2; 
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.25);
+}
+
+body    {
+    background: rgb(122, 80, 162, 0.2);
+    
+}
+
+main    {
+    font-family: "Poppins";
+    min-width: 725px;
+    display: block;
+}
+
+main .bloco1   {
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: white;
+    
+}
+
+main h2 {
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    max-width: 750px;
+    min-width: 150px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:#fccc15;
+    
+}
+
+main h1 {
+    padding: 20px;
+    display:block;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 150px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:#fccc15;
+    
+}
+
+main h3 {
+    display:inline-table;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(122, 80, 162);
+    text-align: center;
+    margin: auto;
+    max-width: 550px;
+    min-width: 350px;
+    margin-inline: 10px;
+    color: white;
+}
+
+main h4 {
+    text-align: justify;
+    padding: 40px;
+    margin: auto;
+    max-width: 650px;
+}
+
+main iframe {
+    position: absolute;
+    margin-left: -320px;
+    width: 35%;
+    height: 35%;
+}
+
+main .bloco2    {
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: white;
+    min-height: 500px;
+}
+
+main table  {
+    border-collapse: collapse;
+    width: 440px;
+    text-align: center;
+    height: 400px;
+    table-layout: fixed;
+}
+
+main .tabela {
+    overflow-x: auto;
+    margin: auto;
+    padding: 20px;
+    display: table-cell;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.tabela th, .tabela td  {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main table caption    {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(252, 204, 21);
+   
+}
+
+.bloco1 img    {
+    padding: 30px;
+    height: 100%;
+    max-width: 850px;
+    min-width: 120px;
+    margin: auto;
+}
+
+main .bloco3   {
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1300px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+h1.login    {
+    padding: 20px;
+    display:block;
+    border-radius: 30px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:#fccc15;
+}
+
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16pt;
+    background-color: rgba(255,255,255, 0.1);
+    color: black;
+    border: 1px solid black;
+    margin: auto;
+}
+
+input#login {
+    width: 440px;
+    background-color:#7a50a2;
+}
+
+input#cadastrar {
+    width: 440px;
+    background-color:#7a50a2 ;
+}
+
+
+div#form-login {
+    width: 450px;
+    margin: 150px auto;
+}
+
+div#form-cad {
+    width: 450px;
+    margin: 20px auto;
+}
+
+
+body#login {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+a.login {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer  {
+    width: 100%;
+    height: 150px;
+    border-top: solid 1px #7a50a2;
+    background-color: white;
+    font-family:"Poppins";
+    font-size: 17px;
+    min-width:725px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer img   {
+    height: 32px;
+    width: 32px;
+}
+
+main .formulario    {
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    min-height: 500px;
+    color: black;
+}

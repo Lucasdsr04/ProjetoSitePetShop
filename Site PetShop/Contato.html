@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meu PetShop</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="imagens/favicon_32x32.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="inner">
+                <div class="logo">
+                    <div>
+                        <img src="imagens/header.png" >
+                    </div>
+                </div>
+    
+                <nav>
+                    <li><span><a href="index.html">Início</a></span></li>
+                    <li><span><a href="QuemSomos.html">Quem somos</a></span></li>
+                    <li><span><a href="NossosPets.html">Nossos pets</a></span></li>
+                    <li><span><a href="login.html" class="button">Login</a></span></li>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="bloco1">
+                <h1>Entre em contato conosco</h1>
+                <div id="formulario">
+                    <form name="form1" method="get">
+                        <p>Nome: <input name="txtNome" type="text" size="50"></p>
+                        <p>E-mail:<input name="txtEmail" type="text" size="50"> </p>
+                        <p>Endereço: <input name="txtEndereco" type="text" size="80">
+                        UF:<select name="UF">
+                        <option value=“RJ”>RJ</option>
+                        <option value=“SP”>SP</option>
+                        <option value=“MG”>MG</option>
+                        <option value=“AM”>AM</option>
+                        </select>
+                        </p>
+                        <p>Comentários:</p>
+                        <p><textarea name="txtComentarios" rows="6"> </textarea></p>
+                        <p> <input name="chkNoticias" type="checkbox" value="checkbox" checked>
+                        Desejo Receber Notícias </p>
+                        <p> <input name="btSubmit" type="submit" id="btSubmit" value="Enviar">
+                        <input name="btReset" type="reset" id="btReset" value="Limpar"> </p>
+                        </form>
+                </div>
+            </div>
+        </main>
+
+    </body>
+
+    <footer>
+        <h2>Meu PetShop</h2>
+        <p>(99)9999-9999</p>
+        <p>Site criado por Lucas Santos</p>
+        <a href="https://www.linkedin.com/in/lucas-rodrigues-638b4116a/"><img src="imagens/linkedinfav.png" alt="linkedin"></a> <a href="https://github.com/Lucasdsr04"><img src="imagens/githubfav.png" alt="github"></a>
+    </footer>
+</html>
